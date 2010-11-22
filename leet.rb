@@ -1,6 +1,6 @@
 require 'sinatra'
-set :views, File.dirname(__FILE__) + '/templates'
+set :views, File.dirname(__FILE__) + '/viewz'
 
 get '/' do
-  "Leet da!"
+  erb :leet
 end
