@@ -9,5 +9,6 @@ get '/' do
 end
 
 get '/leet_submit' do
-  string_convert(params[:enta_ze_phraze])
+  @leet_submit = string_convert(params[:enta_ze_phraze])
+  erb :leet_submit
 end
