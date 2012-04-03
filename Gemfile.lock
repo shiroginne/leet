@@ -1,6 +1,7 @@
 GEM
   remote: http://rubygems.org/
   specs:
+    E1337 (0.0.2)
     rack (1.2.1)
     sinatra (1.1.0)
       rack (~> 1.1)
@@ -11,7 +12,5 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  E1337 (~> 0.0.2)
   sinatra
-
-METADATA
-  version: 1.0.6
